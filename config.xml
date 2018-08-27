@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.phonegap.onlinesafety"
+    version     = "1.1.1" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>OnlineSafety</name>
+
+  <description>
+      An online safety learning module that works without an internet connection
+  </description>
+
+  <author href="https://github.com/badgered/onlinesafety" email="simon@bizzypeople.com">
+      Simon Thompson
+  </author>
+<platform name="android">
+<preference name="SplashMaintainAspectRatio" value="true"/>
+<preference name="SplashShowOnlyFirstTime" value="true"/>
+<icon density="mdpi" src="res/mdpi.png"/>
+<icon density="hdpi" src="res/hdpi.png"/>
+<icon density="xhdpi" src="res/xhdpi.png"/>
+<icon density="xxhdpi" src="res/xxhdpi.png"/>
+<icon density="xxxhdpi" src="res/xxxhdpi.png"/>
+
+</platform>
+</widget>
